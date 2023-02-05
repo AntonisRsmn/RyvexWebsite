@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Roumy</title>
+  <link rel="icon" type="image/x-icon" href="roumy.jpeg">
+  <link rel="stylesheet" href="./style.css">
+  <div id="add_to_discord">
+  </div>
+</head>
+
+<body>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <div class="topnav" id="myTopnav">
+    <a id="roumy_home" href="#home" class="active">Roumy</a>
+    <a href="#features">Features</a>
+    <a href="#commands">Commands</a>
+    <a href="#add_to_discord">Add To Discord</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+  <img class="Roumy" id="home" src="roumy.jpeg" style="width: 150px; height: 150px;">
+  <h3 class="roumy_title">Roumy</h3>
+  <p class="roumy_description">The best discord bot for your server</p>
+  <div class="container">
+    <button class="button button5"
+      onclick=" window.open('https://discord.com/api/oauth2/authorize?client_id=1014993899871285289&permissions=4398046511095&scope=bot%20applications.commands','_blank')">Add
+      To Discord</button>
+  </div>
+  <div id="features">
+    <img class="card" src="fast.png" style="width: 300px; height: 300px;">
+
+    <div class="cards_container">
+      <img class="cards" src="secure.png" style="width: 300px; height: 300px;">
+
+      <img class="cards" src="happyusers.png" style="width: 300px; height: 300px;">
+    </div>
+  </div>
+  <div id="commands" class="dc">
+
+    <div id="commands_mod" class="dc_mod">
+      <h4>Moderation</h4>
+      <p>/clear - Delete messages <br> /ban - Ban a member <br> /unban - Unban a member <br> /kick - Kick a member <br>
+        /membercount - Members in the server <br> /whois - Get info about a member</p>
+    </div>
+
+    <div id="commands_ut" class="dc_ut">
+      <h4>Utilities/Fun</h4>
+      <p>/meme - Sends memes <br> /poll - Create a poll <br> /ppmeter - Your pp size <br> /gaymeter - How much gay you
+        are
+        <br> /8ball - Answers yes or no questions <br> /compliment - Compliments for you
+      </p>
+    </div>
+
+    <div id="commands_su" class="dc_su">
+      <h4>Support</h4>
+      <p>/support - Support Server <br> /donate - Donate to make the bot better</p>
+    </div>
+
+  </div>
+  <footer>
+    <p class="footer_text">Antonis Rusman © 2023</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
