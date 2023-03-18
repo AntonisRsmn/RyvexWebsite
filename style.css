@@ -180,7 +180,7 @@ body {
   color: white;
 }
 
-.dc_mod {
+.dc_1 {
   width: auto;
   height: auto;
   text-align: center;
@@ -188,11 +188,11 @@ body {
   display: inline-block;
 }
 
-.dc_mod p {
+.dc_1 p {
   text-align: left;
 }
 
-.dc_ut {
+.dc_2 {
   width: auto;
   height: auto;
   text-align: center;
@@ -200,11 +200,11 @@ body {
   display: inline-block;
 }
 
-.dc_ut p {
+.dc_2 p {
   text-align: left;
 }
 
-.dc_su {
+.dc_3 {
   width: auto;
   height: auto;
   text-align: center;
@@ -212,7 +212,7 @@ body {
   display: inline-block;
 }
 
-.dc_su p {
+.dc_3 p {
   text-align: left;
 }
 
