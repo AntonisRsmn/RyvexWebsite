@@ -357,6 +357,7 @@ body {
   margin-left: auto;
 }
 
+/*
 .card:hover {
   background-color: #ffffff;
   color: rgb(0, 0, 0);
@@ -366,6 +367,7 @@ body {
   background-color: #ffffff;
   color: rgb(0, 0, 0);
 }
+*/
 
 @media screen and (max-width: 1024px) {
   .cards {
