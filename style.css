@@ -2,7 +2,6 @@ html{
   scroll-behavior: smooth;
 }
 
-/* Backgroud color */
 body {
   background: rgb(37,37,37);
   background: radial-gradient(circle, rgba(37,37,37,1) 0%, rgba(53,53,53,1) 100%);
@@ -17,7 +16,7 @@ body {
   width: 100%;
 }
 
-/* Style the links inside the navigation bar */
+
 .topnav a {
   float: right;
   display: block;
@@ -38,14 +37,12 @@ body {
   font-size: 17px;
 }
 
-/* Change the color of links on hover */
 .topnav a:hover {
   background-color: #ffffff;
   color: #000000;
   transition-duration: 0.4s;
 }
 
-/* Add an active class to highlight the current page */
 .topnav a.active {
   background-color: #ffffff;
   color: rgb(0, 0, 0);
@@ -56,7 +53,6 @@ body {
   color: rgb(0, 0, 0);
 }
 
-/* Hide the link that should open and close the topnav on small screens */
 .topnav .icon {
   display: none;
   color: #ffffff;
@@ -91,7 +87,6 @@ body {
   }
 }
 
-/* Zepp logo */
 .zepp {
   display: block;
   margin-top: 100px;
@@ -100,7 +95,6 @@ body {
   border-radius: 5px;
 }
 
-/* The title below roumy logo */
 .zepp_title {
   color: #FFFFFE;
   text-align: center;
@@ -108,7 +102,6 @@ body {
   margin: 20px auto;
 }
 
-/* The description below roumy logo */
 .zepp_description {
   color: #FFFFFE;
   text-align: center;
@@ -116,7 +109,6 @@ body {
   margin: 20px auto;
 }
 
-/* Footer */
 .footer_text {
   color: #FFFFFE;
   text-align: center;
@@ -124,7 +116,6 @@ body {
   margin: 30px auto;
 }
 
-/* Button */
 .container {  
   width: 100%;
   height: 100%;
