@@ -189,15 +189,7 @@ body {
 }
 
 @media screen and (max-width: 1024px) {
-  .dc-1{
-    width: 265px;  
-    height: 100%;
-    text-align: left;
-    text-decoration: left;
-    display: grid;
-  }
-
-  .dc-2{
+  .dc-1, .dc-2{
     width: 265px;  
     height: 100%;
     text-align: left;
@@ -206,12 +198,11 @@ body {
   }
 }
 
-.card {
+.card, .cards {
   width: 300px;
-  height: 300px;  
+  height: 300px;
   display: grid;
   background-color: #252525;
-  color: #FFFFFE;
   margin-top: 100px;
   margin-right: auto;
   margin-left: auto;
@@ -219,22 +210,6 @@ body {
   text-align: left;
   font-size: 18px;
   text-decoration: left;
-  border-style: solid;
-  border-color: #ffffff;
-  transition-duration: 0.4s;
-}
-
-.cards {
-  width: 300px;
-  height: 300px;  
-  display: inline-block;
-  background-color: #252525;
-  color: #FFFFFE;
-  margin-top: 100px;
-  border-radius: 5px;
-  text-align: center;
-  font-size: 18px;
-  text-decoration: center;
   border-style: solid;
   border-color: #ffffff;
   transition-duration: 0.4s;
@@ -250,14 +225,8 @@ body {
 }
 
 /*
-.card:hover {
-  background-color: #ffffff;
-  color: rgb(0, 0, 0);
-}
-
-.cards:hover {
-  background-color: #ffffff;
-  color: rgb(0, 0, 0);
+.card:hover, .cards:hover {
+  background-color: #fffffe;
 }
 */
 
@@ -267,7 +236,6 @@ body {
     height: 300px;  
     display: grid;
     background-color: #252525;
-    color: #FFFFFE;
     margin-top: 100px;
     margin-right: auto;
     margin-left: auto;
