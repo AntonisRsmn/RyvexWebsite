@@ -59,7 +59,7 @@ body {
   background-color: #000000;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 780px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
     float: right;
@@ -67,7 +67,7 @@ body {
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 780px) {
   .topnav.responsive {position: fixed;}
   .topnav.responsive a.icon {
     position: absolute;
@@ -131,7 +131,7 @@ body {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 17px;
+  font-size: 15.5px;
   margin-top: 10px;
   transition-duration: 0.4s;
   cursor: pointer;
@@ -149,7 +149,7 @@ body {
   color: rgb(0, 0, 0);
 }
 
-.dc-1, .dc-2 {  
+.dc-1, .dc-2, .dc-3, .dc-4 {  
   height: 100%;  
   display: flex;
   background-color: #252525;
@@ -168,28 +168,28 @@ body {
   align-items: center;
 }
 
-.dc-1, .dc-2 {
+.dc-1, .dc-2, .dc-3, .dc-4 {
   width: 80%;
 }
 
-.dc-1:hover, .dc-2:hover {
+.dc-1:hover, .dc-2:hover, .dc-3:hover, .dc-4:hover {
   background-color: #ffffff;
   color: rgb(0, 0, 0);
 }
 
-.dc_1, .dc_2, .dc_3, .dc_4 {
+.dc_1, .dc_2, .dc_3, .dc_4, .dc_5, .dc_6  {
   width: auto;
   height: auto;
   text-align: center;
   display: inline-block;
 }
 
-.dc_1 p, .dc_2 p, .dc_3 p, .dc_4 p{
+.dc_1 p, .dc_2 p, .dc_3 p, .dc_4 p, .dc_5 p, .dc_6 p {
   text-align: left;
 }
 
 @media screen and (max-width: 1024px) {
-  .dc-1, .dc-2{
+  .dc-1, .dc-2, .dc-3, .dc-4 {
     width: 265px;  
     height: 100%;
     text-align: left;
