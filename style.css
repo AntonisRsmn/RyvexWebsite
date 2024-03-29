@@ -162,10 +162,10 @@ body {
   border-style: solid;
   border-color: #ffffff;
   transition-duration: 0.4s;
-  gap: 10px auto;
+  gap: 10px 50px;
   justify-content: center;
   align-items: center;
-  width: 650px;
+  width: 658px;
   display: flex;
 }
 
