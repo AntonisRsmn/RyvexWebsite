@@ -154,18 +154,16 @@ body {
   background-color: #252525;
   color: #FFFFFE;
   margin-top: 100px;
-  margin-right: auto;
   margin-left: auto;
+  margin-right: auto;
   border-radius: 5px;
-  font-size: 16px;
-  padding: 20px;
+  font-size: 17px;
+  padding: 18px;
   border-style: solid;
   border-color: #ffffff;
   transition-duration: 0.4s;
-  gap: 10px 50px;
-  justify-content: center;
-  align-items: center;
-  width: 658px;
+  gap: 50px;
+  width: 665px;
   display: flex;
 }
 
@@ -192,6 +190,8 @@ body {
     text-align: left;
     text-decoration: left;
     display: grid;
+    margin-right: auto;
+    margin-left: auto;
   }
 }
 
@@ -204,19 +204,16 @@ body {
   margin-right: auto;
   margin-left: auto;
   border-radius: 5px;
-  text-align: left;
-  font-size: 18px;
-  text-decoration: left;
   border-style: solid;
   border-color: #ffffff;
   transition-duration: 0.4s;
 }
 
 .cards_container {
-  width: 700px;
+  width: 710px;
   height: 400px;
   display: flex;
-  gap: 0px 100px;
+  gap: 90px;
   margin-right: auto;
   margin-left: auto;
 }
