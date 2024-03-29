@@ -151,7 +151,6 @@ body {
 
 .dc-1, .dc-2, .dc-3, .dc-4 {  
   height: 100%;  
-  display: flex;
   background-color: #252525;
   color: #FFFFFE;
   margin-top: 100px;
@@ -163,10 +162,11 @@ body {
   border-style: solid;
   border-color: #ffffff;
   transition-duration: 0.4s;
-  gap: 10px 100px;
+  gap: 10px auto;
   justify-content: center;
   align-items: center;
-  width: 80%;
+  width: 650px;
+  display: flex;
 }
 
 .dc-1:hover, .dc-2:hover, .dc-3:hover, .dc-4:hover {
@@ -178,7 +178,7 @@ body {
   width: auto;
   height: auto;
   text-align: center;
-  display: inline-block;
+  display: inline-block;  
 }
 
 .dc_1 p, .dc_2 p, .dc_3 p, .dc_4 p, .dc_5 p, .dc_6 p {
@@ -187,7 +187,7 @@ body {
 
 @media screen and (max-width: 1024px) {
   .dc-1, .dc-2, .dc-3, .dc-4 {
-    width: 265px;  
+    width: 265px;
     height: 100%;
     text-align: left;
     text-decoration: left;
