@@ -1,138 +1,263 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Zepp</title>
-    <link rel="icon" type="image/x-icon" href="zepp.png" />
-    <link rel="stylesheet" href="./style.css" />
-    <div id="home"></div>
-    <div id="add_to_discord"></div>
-    <div id="support_server"></div>
-  </head>
+html{
+  scroll-behavior: smooth;
+}
 
-  <body>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <div class="topnav" id="myTopnav">
-      <a id="zepp_home" href="index.html" class="active">Zepp</a>
-      <a href="privacy.html">Privacy Policy</a>
-      <a href="ToS.html">ToS</a>
-      <a onclick="window.open('https://discord.com/api/oauth2/authorize?client_id=1014993899871285289&permissions=4398046511095&scope=bot%20applications.commands','_blank')">Add To Discord</a>
-      <a onclick="window.open('https://discord.gg/JDDSbxKDne','_blank')">Support Server</a>
-      <a href="index.html#commands">Commands</a>
-      <a href="index.html#features">Features</a>
-      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-        <i class="fa fa-bars"></i>
-      </a>
-    </div>
-    <img class="zepp" src="zepp.png" style="width: 150px; height: 150px" />
-    <h3 class="zepp_title">Zepp</h3>
-    <p class="zepp_description">The best discord bot for your server</p>
-    <div class="container">
-      <button
-        class="button button5"
-        onclick=" window.open('https://discord.com/api/oauth2/authorize?client_id=1014993899871285289&permissions=4398046511095&scope=bot%20applications.commands','_blank')"
-      >
-        Add To Discord
-      </button>
-      <button
-        class="button button5"
-        onclick=" window.open('https://discord.gg/JDDSbxKDne','_blank')"
-      >
-        Support Server
-      </button>
-    </div>
-    <div id="features">
-      <img class="card-a" src="fast.svg" style="width: 300px; height: 300px" />
+body {
+  background: rgb(37,37,37);
+  background: radial-gradient(circle, rgba(37,37,37,1) 0%, rgba(53,53,53,1) 100%);
+  margin: 0;
+}
 
-      <div class="cards_container">
-        <img
-          class="card-b"
-          src="lock.svg"
-          style="width: 300px; height: 300px"
-        />
+.topnav {
+  background-color: #000000;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
 
-        <img
-          class="card-c"
-          src="happy.svg"
-          style="width: 300px; height: 300px"
-        />
-      </div>
-    </div>
-    
-      <div id="commands" class="dc-1">
-        <div id="Moderation" class="dc_1">
-          <h3>Moderation</h3>
-          <p class="dc_txt">
-            1. /clear - Delete messages <br /><br />
-            2. /ban - Ban a user <br /><br />
-            3. /unban - Unban a user <br /><br />
-            4. /kick - Kick a user <br /><br />
-            5. /lock - Lock a given channel <br /><br />
-            6. /unlock - Unlock a given channel <br /><br />
-            7. /mute - Mute a user from the server <br /><br />
-            8. /unmute - Unmute a user from the server <br /><br />
-            9. /add-role - Add role to a user <br /><br />
-            10. /remove-role - Remove role from a user
-          </p>
-        </div>
 
-        <div id="Music" class="dc_2">
-          <h3>Music</h3>
-          <p class="dc_txt">
-            1. /play - Play song <br /><br />
-            2. /pause - Pause queue <br /><br />
-            3. /resume - Resume queue <br /><br />
-            4. /skip - Skip song <br /><br />
-            5. /volume - Change song volume <br /><br />
-            6. /queue - Check the queue <br /><br />
-            7. /forward - Forward seconds in a song <br /><br />
-            8. /rewind - Rewind seconds in a song <br /><br />
-            9. /shuffle - Shuffle the songs i the queue <br /><br />
-            10 ./loop - Set the loop of the song or the queue <br /><br />
-            11. /nowplaying - Display info about currently playing song
-          </p>
-        </div>
-      </div>
+.topnav a {
+  float: right;
+  display: block;
+  color: #FFFFFE;
+  text-align: center;
+  padding: 16px 18px;
+  text-decoration: none;
+  font-size: 17px;
+}
 
-      <div id="commands" class="dc-2">
-        <div id="Info" class="dc_3">
-          <h3>Info</h3>
-          <p class="dc_txt">
-            1. /help - Get a list of all the commands <br /><br />
-            2. /botinfo - information of the bot <br /><br />
-            3. /support - Support server <br /><br />
-            4. /userinfo - Get information about a user <br /><br />
-            5. /website - Zepp's website <br /><br />
-            6. /donate - Consider donating to help me make the bot better<br /><br />
-            7. /uptime - Shows the uptime of the bot <br /><br />
-            8. /poll - Create a poll and send it to a certain channel
-          </p>
-        </div>
+.topnav #zepp_home {
+  float: left;
+  display: block;
+  color: #FFFFFE;
+  text-align: center;
+  padding: 16px 18px;
+  text-decoration: none;
+  font-size: 17px;
+}
 
-        <div id="Fun" class="dc_4">
-          <h3>Fun</h3>
-          <p class="dc_txt">
-            1. /meme - Sends some funny memes<br /><br />
-            2. /8ball - Answers yes or no questions<br /><br />
-            3. /gaymeter - Gay meter<br /><br />
-            4. /ppmeter - PP meter<br /><br />
-            5. /conmpiment - Gives you compliments<br /><br />
-            6. /rps - Play rock paper scissors against the bot
-          </p>
-        </div>
-      </div>
-      
-    <footer>
-      <p class="footer_text">Zepp © 2023</p>
-    </footer>
-    <script src="script.js"></script>
-    <script
-      src="https://kit.fontawesome.com/8253268ec9.js"
-      crossorigin="anonymous"
-    ></script>
-  </body>
-</html>
+.topnav a:hover {
+  background-color: #ffffff;
+  color: #000000;
+  transition-duration: 0.4s;
+}
+
+.topnav a.active {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+}
+
+.topnav #zepp_home.active {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+}
+
+.topnav .icon {
+  display: none;
+  color: #ffffff;
+  background-color: #000000;
+}
+
+@media screen and (max-width: 780px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .topnav.responsive {position: fixed;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+    .topnav.responsive #zepp_home {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+.zepp {
+  display: block;
+  margin-top: 100px;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 5px;
+}
+
+.zepp_title {
+  color: #FFFFFE;
+  text-align: center;
+  font-size: 40px;
+  margin: 20px auto;
+}
+
+.zepp_description {
+  color: #FFFFFE;
+  text-align: center;
+  font-size: 18px;
+  margin: 20px auto;
+}
+
+.footer_text {
+  color: #FFFFFE;
+  text-align: center;
+  font-size: 16px;
+  margin: 30px auto;
+}
+
+.container {  
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  text-align: center;
+}
+
+.button {
+  background-color: #ffffff;
+  border: none;
+  color: #FFFFFE;
+  padding: 12px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15.5px;
+  margin-top: 10px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.button5 {
+  background-color: #252525;
+  color: #FFFFFE;
+  border: 2px solid #ffffff;
+}
+
+.button5:hover {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+}
+
+.dc-1, .dc-2, .dc-3, .dc-4 {  
+  height: 100%;  
+  background-color: #252525;
+  color: #FFFFFE;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  font-size: 17px;
+  padding: 18px;
+  border-style: solid;
+  border-color: #ffffff;
+  transition-duration: 0.4s;
+  gap: 50px;
+  width: 665px;
+  display: flex;
+}
+
+.dc-1:hover, .dc-2:hover, .dc-3:hover, .dc-4:hover {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+}
+
+.dc_1, .dc_2, .dc_3, .dc_4, .dc_5, .dc_6  {
+  width: auto;
+  height: auto;
+  text-align: center;
+  display: inline-block;  
+}
+
+.dc_1 p, .dc_2 p, .dc_3 p, .dc_4 p, .dc_5 p, .dc_6 p {
+  text-align: left;
+}
+
+@media screen and (max-width: 1024px) {
+  .dc-1, .dc-2, .dc-3, .dc-4 {
+    width: 265px;
+    height: 100%;
+    text-align: left;
+    text-decoration: left;
+    display: grid;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+.card-a, .card-b, .card-c {
+  width: 300px;
+  height: 300px;
+  display: grid;
+  background-color: #252525;
+  margin-top: 100px;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #ffffff;
+  transition-duration: 0.4s;
+}
+
+.cards_container {
+  width: 710px;
+  height: 400px;
+  display: flex;
+  gap: 90px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+.card-a:hover {
+  background-color: #fffffe;
+  content: url(fastd.svg);
+  transition-duration: 0.4s;
+}
+
+.card-b:hover {
+  background-color: #fffffe;
+  content: url(lockd.svg);
+  transition-duration: 0.4s;
+}
+
+.card-c:hover {
+  background-color: #fffffe;
+  content: url(happyd.svg);
+  transition-duration: 0.4s;
+}
+
+@media screen and (max-width: 1024px) {
+  .cards {
+    width: 300px;
+    height: 300px;  
+    display: grid;
+    background-color: #252525;
+    margin-top: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 5px;
+    text-align: left;
+    font-size: 18px;
+    text-decoration: left;
+    border-style: solid;
+    border-color: #ffffff;
+    transition-duration: 0.4s;
+  }
+
+  .cards_container {
+    width: 100%;
+    height: 100%;  
+    display: grid;
+ }
+}
