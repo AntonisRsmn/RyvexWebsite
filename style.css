@@ -41,6 +41,7 @@ body {
   background-color: #ffffff;
   color: #000000;
   transition-duration: 0.4s;
+  cursor: pointer;
 }
 
 .topnav a.active {
