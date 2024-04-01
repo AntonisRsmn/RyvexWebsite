@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zepp</title>
+    <link rel="icon" type="image/x-icon" href="zepp.png" />
+    <link rel="stylesheet" href="./style-contact.css" />
+    <div id="home"></div>
+    <div id="add_to_discord"></div>
+    <div id="support_server"></div>
+  </head>
+
+  <body>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <div class="topnav" id="myTopnav">
+      <a id="zepp_home" href="index.html" class="active">Zepp</a>
+      <a href="contact.html">Contact</a>
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="ToS.html">ToS</a>
+      <a onclick="window.open('https://discord.com/api/oauth2/authorize?client_id=1014993899871285289&permissions=4398046511095&scope=bot%20applications.commands','_blank')">Add To Discord</a>
+      <a onclick="window.open('https://discord.gg/JDDSbxKDne','_blank')">Support Server</a>
+      <a href="index.html#commands">Commands</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+    
+    <form action="https://formspree.io/f/xzbnjylb" method="POST">
+        <h1>Contact Form</h1>
+        <input type="text" name="first" placeholder="First Name" autocomplete="off" required>
+        <input type="text" name="last" placeholder="Last Name" autocomplete="off" required>
+        <input type="email" name="email" placeholder="Email Address" autocomplete="off" required>
+        <textarea rows="5" cols="60" name="message" placeholder="Enter Text" autocomplete="off" required></textarea>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <footer>
+      <p class="footer_text">Zepp © 2023</p>
+    </footer>
+    <script src="script.js"></script>
+    <script
+      src="https://kit.fontawesome.com/8253268ec9.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
