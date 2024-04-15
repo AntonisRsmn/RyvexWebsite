@@ -17,22 +17,28 @@ html{
   }
   
   
+  .topnav #aa {
+    margin-top: 7.5px;
+  }
+  
   .topnav a {
     float: right;
     display: block;
     color: #FFFFFE;
     text-align: center;
-    padding: 16px 18px;
+    padding: 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 18px;
+    margin-top: 5px;
   }
   
   .topnav #zepp_home {
     float: left;
     display: block;
-    color: #FFFFFE;
+    background-color: #fffffe;
+    color: #000000;
     text-align: center;
-    padding: 16px 18px;
+    padding: 0px 16px;
     text-decoration: none;
     font-size: 17px;
   }
@@ -50,7 +56,6 @@ html{
   }
   
   .topnav #zepp_home.active {
-    background-color: #ffffff;
     color: rgb(0, 0, 0);
   }
   
