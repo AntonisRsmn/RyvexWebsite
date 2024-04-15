@@ -14,6 +14,7 @@ body {
   position: fixed;
   top: 0;
   width: 100%;
+  font-weight: bold;
 }
 
 
@@ -22,7 +23,7 @@ body {
   display: block;
   color: #FFFFFE;
   text-align: center;
-  padding: 16px 18px;
+  padding: 18px 18px;
   text-decoration: none;
   font-size: 17px;
 }
@@ -32,9 +33,9 @@ body {
   display: block;
   color: #FFFFFE;
   text-align: center;
-  padding: 16px 18px;
+  padding: 18px 18px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 18px;
 }
 
 .topnav a:hover {
@@ -94,6 +95,7 @@ body {
   margin-right: auto;
   margin-left: auto;
   border-radius: 5px;
+  font-weight: bold;
 }
 
 .zepp_title {
@@ -101,6 +103,7 @@ body {
   text-align: center;
   font-size: 40px;
   margin: 20px auto;
+  font-weight: bold;
 }
 
 .zepp_description {
@@ -108,6 +111,7 @@ body {
   text-align: center;
   font-size: 18px;
   margin: 20px auto;
+  font-weight: bold;
 }
 
 .footer_text {
@@ -115,6 +119,7 @@ body {
   text-align: center;
   font-size: 16px;
   margin: 30px auto;
+  font-weight: bold;
 }
 
 .container {  
@@ -137,6 +142,7 @@ body {
   transition-duration: 0.4s;
   cursor: pointer;
   border-radius: 5px;
+  font-weight: bold;
 }
 
 .button5 {
@@ -166,6 +172,7 @@ body {
   gap: 50px;
   width: 665px;
   display: flex;
+  font-weight: bold;
 }
 
 .dc-1:hover, .dc-2:hover, .dc-3:hover, .dc-4:hover {
@@ -196,7 +203,7 @@ body {
   }
 }
 
-.card-a, .card-b, .card-c {
+.card-a, .card-b, .card-c, .card-d {
   width: 300px;
   height: 300px;
   display: grid;
@@ -237,6 +244,14 @@ body {
   content: url(Pic/happyd.svg);
   transition-duration: 0.4s;
 }
+
+/*
+.card-d:hover {
+  background-color: #fffffe;
+  content: url(Pic/musicd.svg);
+  transition-duration: 0.4s;
+}
+*/
 
 @media screen and (max-width: 1024px) {
   .cards {
