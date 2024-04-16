@@ -166,7 +166,7 @@
 }
 
 /* Descriptions */
-.dc-1, .dc-2, .dc-3, .dc-4 {  
+.dc-1 {  
   height: 100%;  
   background-color: #252525;
   color: #FFFFFE;
@@ -186,13 +186,13 @@
 }
 
 /* Descriptions Hover */
-.dc-1:hover, .dc-2:hover, .dc-3:hover, .dc-4:hover {
+.dc-1:hover {
   background-color: #ffffff;
   color: rgb(0, 0, 0);
 }
 
 /* Descriptions */
-.dc_1, .dc_2, .dc_3, .dc_4, .dc_5, .dc_6  {
+.dc_1  {
   width: auto;
   height: auto;
   text-align: center;
@@ -200,13 +200,13 @@
 }
 
 /* Descriptions Paragraph */
-.dc_1 p, .dc_2 p, .dc_3 p, .dc_4 p, .dc_5 p, .dc_6 p {
+.dc_1 p {
   text-align: left;
 }
 
 /* Descriptions Media Screen */
 @media screen and (max-width: 1024px) {
-  .dc-1, .dc-2, .dc-3, .dc-4 {
+  .dc-1 {
     width: 265px;
     height: 100%;
     text-align: left;
