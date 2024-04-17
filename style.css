@@ -276,13 +276,11 @@
   transition-duration: 0.4s;
 }
 
-/*
 .card-d:hover {
   background-color: #fffffe;
   content: url(Pic/musicd.svg);
   transition-duration: 0.4s;
 }
-*/
 
 /* Features Media Screen */
 @media screen and (max-width: 1024px) {
