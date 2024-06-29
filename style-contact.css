@@ -118,7 +118,7 @@ input {
   font-size: 18px;
   padding: 16px 16px;
   border: 2px solid;
-  border-radius: 5px;
+  border-radius: 10px;
   border-color: #FFFFFF;
   color: #FFFFFE;
   display: flex;
@@ -133,7 +133,7 @@ textarea {
   font-size: 20px;
   padding: 16px 16px;
   border: 2px solid;
-  border-radius: 5px;
+  border-radius: 10px;
   border-color: #FFFFFF;
   color: #FFFFFE;
   display: flex;
@@ -176,7 +176,7 @@ button {
   margin-top: 20px;
   transition-duration: 0.4s;
   cursor: pointer;
-  border-radius: 5px;
+  border-radius: 10px;
   display: flex;
   margin-left: auto;
   margin-right: auto;
